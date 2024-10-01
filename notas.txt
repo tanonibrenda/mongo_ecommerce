@@ -1,0 +1,8 @@
+//en backend
+npm init -y
+npm install express dotenv
+crear index.js
+llamar a express y declarar la primera ruta para usar el servidor, en este caso get (también puede ser post). La ruta: ('/'), la función que va a usar para cuando llega la solicitud. Como parametros que va entre (), se puede usar un request , un id que llegue en la ruta, las cabeceras, informacion extra para ver si el usuario tiene un token de autenticacion. El segundo argumento que se puede usar es la respueta. Agregamos un console.log de la request para seguir funcionamiento. Y luego enviar una respuesta.
+definir puerto local (ahora) y correr con node index
+
+
