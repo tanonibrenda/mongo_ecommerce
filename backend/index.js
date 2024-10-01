@@ -7,7 +7,7 @@ const dotenv = require('dotenv');
 //primera ruta
 server.get('/', (req, res)=>{
     console.log(req)
-    res.send('Api de tienda')
+    res.send('<h1>Api de tienda</h1>')
 })
 
 //servidor en puerto local

@@ -1,0 +1,55 @@
+{
+    "libros": [
+      {
+        "titulo": "Don Quijote de la Mancha",
+        "autor": "Miguel de Cervantes",
+        "año": 1605
+      },
+      {
+        "titulo": "Orgullo y prejuicio",
+        "autor": "Jane Austen",
+        "año": 1813
+      },
+      {
+        "titulo": "Moby-Dick",
+        "autor": "Herman Melville",
+        "año": 1851
+      },
+      {
+        "titulo": "Cien años de soledad",
+        "autor": "Gabriel García Márquez",
+        "año": 1967
+      },
+      {
+        "titulo": "Crimen y castigo",
+        "autor": "Fiódor Dostoyevski",
+        "año": 1866
+      },
+      {
+        "titulo": "En busca del tiempo perdido",
+        "autor": "Marcel Proust",
+        "año": 1913
+      },
+      {
+        "titulo": "Ulises",
+        "autor": "James Joyce",
+        "año": 1922
+      },
+      {
+        "titulo": "La Odisea",
+        "autor": "Homero",
+        "año": "Siglo VIII a.C."
+      },
+      {
+        "titulo": "1984",
+        "autor": "George Orwell",
+        "año": 1949
+      },
+      {
+        "titulo": "El Gran Gatsby",
+        "autor": "F. Scott Fitzgerald",
+        "año": 1925
+      }
+    ]
+  }
+  
