@@ -8,4 +8,7 @@ en "scripts":     "dev": "node --watch index",    ------>para que corra todo el 
 en server.get o app.get podemos solicitar un método http, para verificar que es lo que queremos solicitar. Para eso usamos get para traer la informacion. Post para cuando queremos publicar un nuevo recurso, traer informacion del cliente al servidor. Put para actualizar informacion. Delete para borrar. 
 crear archivo json
 llamar a json y sacar <api corriendo> : server.get('/', (req, res)=>{     console.log(req)     // res.send('<h1>Api de tienda</h1>')  y poner:   ---->  res.json(data)}) 
+Vamos a separar por carpetas para poder escalar mejor. El controlador el que controla la request y respuesta. Las rutas por otro. El modelo es el que se encarga de interacturar con los datos, comunicar y gestionar toda la información con los datos. Vista, que puede ser directamente html o motor de plantillas. Queremos que este back maneje las rutas, y después de donde se solicita es independiente.
+crear carpeta src. dentro de carpeta src crear carpeta routes con el archivo index.js 
+en index.js de routes, llamamos a express. const roouter = express.Router();  para empezar a crear ruta a los productos roouter.get(/productos), con get para tomar los productos; roouter.post('/productos') con post para generar nuevos. Esto lo tenemos en un archivo aparte, para las cosas van a suceder en index de back. Entonces lo exportamos con module.export
 
