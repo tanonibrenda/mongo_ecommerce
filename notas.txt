@@ -7,5 +7,5 @@ definir puerto local (ahora) y correr con node index
 en "scripts":     "dev": "node --watch index",    ------>para que corra todo el tiempo. Y para que corra npm run dev
 en server.get o app.get podemos solicitar un método http, para verificar que es lo que queremos solicitar. Para eso usamos get para traer la informacion. Post para cuando queremos publicar un nuevo recurso, traer informacion del cliente al servidor. Put para actualizar informacion. Delete para borrar. 
 crear archivo json
- 
+llamar a json y sacar <api corriendo> : server.get('/', (req, res)=>{     console.log(req)     // res.send('<h1>Api de tienda</h1>')  y poner:   ---->  res.json(data)}) 
 
