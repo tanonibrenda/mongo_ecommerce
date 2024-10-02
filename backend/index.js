@@ -10,7 +10,7 @@ const data = require('./data.json')
 //primera ruta
 server.get('/', (req, res)=>{
     console.log(req)
-    res.send('<h1>Api de Tienda: hola mundo</h1>')
+    res.json(data)
 })
 
 //servidor en puerto local
