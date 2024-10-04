@@ -2,15 +2,20 @@
 const express = require ('express');
 const server = express(); 
 
-const dotenv = require('dotenv');
+const routerProductos = require('./src/routes/index.js')
+
+// const dotenv = require('dotenv');
 
 //llamar a json
-const data = require('./data.json')
+// const data = require('./data.json')
 
 //primera ruta
 server.get('/', (req, res)=>{
     res.send('API Ecommerce')
 })
+
+//llamar rutas
+server.use('/api', routerProductos)
 
 //servidor en puerto local
 server.listen(3000, ()=>{
