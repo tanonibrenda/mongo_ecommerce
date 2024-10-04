@@ -2,7 +2,7 @@
 const express = require ('express');
 const server = express(); 
 
-const routerProductos = require('./src/routes/index.js')
+const routerProductos = require('./src/routes/index')
 
 // const dotenv = require('dotenv');
 
