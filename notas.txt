@@ -12,3 +12,11 @@ Vamos a separar por carpetas para poder escalar mejor. El controlador el que con
 crear carpeta src. dentro de carpeta src crear carpeta routes con el archivo index.js 
 en index.js de routes, llamamos a express. const roouter = express.Router();  para empezar a crear ruta a los productos roouter.get(/productos), con get para tomar los productos; roouter.post('/productos') con post para generar nuevos. Esto lo tenemos en un archivo aparte, para las cosas van a suceder en index de back. Entonces lo exportamos con module.export
 
+1:02:22
+
+https://www.youtube.com/watch?v=-6JbfrS65NI&t=3739s
+
+el controlador index.js va a tener métodos estáticos. static getAll(req, res) para traer todos los productos-
+
+la carpeta model va a permitir interacturar con los datos. Donde va venir la información.
+se crea modelo estatico, no pedimos una request o response porque no pertenece a esta parte, eso ya lo tenemos en el controlador, cuando llamemos al m+etodo getAll del modelo, esto debería comunicarse con la base de datos para solicitarle ese recurso. Que por ahora lo tenemos en un json

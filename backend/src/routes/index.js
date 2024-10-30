@@ -1,11 +1,11 @@
 const express = require ('express');
 const router = express.Router();
-const data = require('../../data.json');
+const Productos = require('../controllers/index')
+
 
 //ruta a producto
-router.get('/productos', (req, res) => {
-    res.json(data)
-});
+router.get('/productos', Productos.getAll)
+
 
 //ruta para crear nuevo producto
 // roouter.post('/productos')
